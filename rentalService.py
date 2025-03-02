@@ -54,3 +54,7 @@ show_vehicle_info(motorbike)
 # Calculate rental costs
 print(f"\nRental cost for {car.brand} {car.model} for 3 days: ${car.calculate_rental_cost(3)}")
 print(f"Rental cost for {motorbike.brand} {motorbike.model} for 5 days: ${motorbike.calculate_rental_cost(5)}")
+
+# Modify rental price and display updated price
+car.set_rental_price_per_day(55)
+print(f"\nUpdated rental price for {car.brand} {car.model}: ${car.get_rental_price_per_day()}/day")
