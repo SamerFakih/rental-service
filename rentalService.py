@@ -10,5 +10,7 @@ class vehicles:
         
         return f"Brand: {self.brand}\nModel: {self.model}\nYear: {self.year}\nRental Price Per Day: {self.rental_price_per_day}"
     
+my_vehicle = vehicles("Toyota", "Corolla", 2015, 100)
 
+print(my_vehicle.display_info())
 
