@@ -39,3 +39,7 @@ class motorbike(vehicles):
     def display_info(self):
         return super().display_info() + f"\nEngine Capacity: {self.engine_capacity}"
     
+#a function to show polymorphism
+def show_vehicle_info(vehicle):
+    vehicle.display_info()
+    
