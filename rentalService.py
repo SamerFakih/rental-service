@@ -43,3 +43,7 @@ class motorbike(vehicles):
 def show_vehicle_info(vehicle):
     vehicle.display_info()
     
+#create a instance
+car = Car("Toyota", "Corolla", 2020, 50, 5)
+motorbike = motorbike("yamaha", "RR", 2019, 30, 998)
+
