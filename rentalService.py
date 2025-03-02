@@ -50,3 +50,7 @@ motorbike = motorbike("yamaha", "RR", 2019, 30, 998)
 #display the vehicle details
 show_vehicle_info(car)
 show_vehicle_info(motorbike)
+
+# Calculate rental costs
+print(f"\nRental cost for {car.brand} {car.model} for 3 days: ${car.calculate_rental_cost(3)}")
+print(f"Rental cost for {motorbike.brand} {motorbike.model} for 5 days: ${motorbike.calculate_rental_cost(5)}")
